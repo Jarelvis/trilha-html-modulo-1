@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meu Primeiro Projeto HTML</title>
+</head>
+
+<body>
+    <h1 id="inicio">Meu primeiro Projeto</h1>
+    <hr />
+    <h2>O que aprendi sobre HTML até agora</h2>
+    <h3>Índice</h3>
+    <ul>
+        <li><a href="#inspetor">Inspetor de Elementos</a></li>
+        <li><a href="#estrutura-basica">Estrutura Básica HTML</a></li>
+        <li><a href="#tags">Tags</a></li>
+        <li><a href="#ref">Referências</a></li>
+    </ul>
+    <h2 id="inspetor">Inspetor de Elementos</h2>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>Inspetor de elementos é uma funcionalidade dos navegadores que permite você visualizar como aquela página HTML
+        foi criada. Com o inspetor conseguimos examinar o HTML, o CSS e até mesmo o JavaScript de uma página. Com isso,
+        conseguimos ver a construção, tirando boas ideias para páginas futuras.</p>
+    <h2 id="estrutura-basica">Estrutura Básica HTML</h2>
+    <p>A estrutura básica de um HTML é composta por Head, que seria o cabeçalho da página, seguido pelo Body, que
+        representa o corpo onde vamos encontrar os títulos, subtítulos e a parte de texto onde é descrito o assunto do
+        site. Resumindo, o Body é a parte visual onde o cliente (usuário) vai ter acesso às informações.
+    </p>
+    <small><a href="#inicio">(voltar)</a></small>
+    <h2 id="tags">Tags</h2>
+    <p>A tag HTML é a raiz do documento HTML. Ela delimita todo o conteúdo e é a primeira coisa que aparece no
+        documento. Todos os outros elementos HTML devem ser descendentes dessa tag. Essencial para informar ao navegador
+        que o documento é HTML.
+        <br>head: Contém metadados sobre o documento, como o título, links para folhas de estilo (CSS) e scripts JavaScript.
+        Não é exibido no navegador, mas é vital para o funcionamento correto do HTML.
+        <br>title: Usada dentro de head para definir o título do documento. Aparece na guia do navegador e nos resultados
+        dos motores de busca.
+        <br>h1, h2, …, h6: Tags de cabeçalho. h1 é o título principal, h2 é um subtítulo e assim por diante. Importante para
+        estruturar o conteúdo e dar significado semântico.
+        <br>p: Define um parágrafo de texto. Útil para organizar o conteúdo.
+        <br>a: Cria links. Use o atributo href para especificar o destino do link.
+        <br>img: Insere imagens. O atributo src define o caminho da imagem.
+        <br>ul e ol: Listas não ordenadas e ordenadas, respectivamente. Use li para cada item da lista.
+        <br>div: Bloco genérico para agrupar elementos. Muito usado para aplicar estilos via CSS.
+        <br>span: Inline, usado para aplicar estilos a partes específicas do texto.
+    </p>
+    <blockquote><i>Lembre-se de que o uso correto das tags HTML melhora a SEO e a usabilidade do site. Explore mais
+            sobre essas tags e comece a criar suas páginas!</i></blockquote>
+    <small><a href="#inicio">(voltar)</a></small>
+    <h2 id="ref"> Referências</h2>
+    <p>
+
+        <a href="https://web.dio.me/home">DIO</a></p>
+    <p>
+        <a href="https://www.cursoemvideo.com/">Curso em Vídeo</a>
+    </p>
+
+    <small><a href="#inicio">(voltar)</a></small>
+</body>
+
+</html>
